@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.circle{
+	margin: 70px auto;
+	width: 110px;
+	height: 110px;
+	border: 5px solid rgba(255,255,255,0.2);
+	border-radius: 50%;
+	border-top-color: #fff;
+	animation: spin 1s linear infinite;
+}
+@Keyframes spin{
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+
